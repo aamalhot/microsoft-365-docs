@@ -38,6 +38,9 @@ If your organization has DLP, you can now define policies that prevent people fr
 
 - **Example 2: Protecting sensitive information in documents**. Suppose that someone attempts to share a document with guests in a Microsoft Teams channel or chat, and the document contains sensitive information. If you have a DLP policy defined to prevent this, the document won't open for those users. Note that in this case, your DLP policy must include SharePoint and OneDrive in order for protection to be in place. (This is an example of DLP for SharePoint that shows up in Microsoft Teams, and therefore requires that users are licensed for Office 365 DLP (included in Office 365 E3), but does not require users to be licensed for Office 365 Advanced Compliance.)
 
+    > [!NOTE]
+    > Best practices while defining DLP polies to restrict external sharing for files: <br/>- Block external access only instead of blocking everyone <br/>- [Mark new files as sensitive by default](https://docs.microsoft.com/en-us/sharepoint/sensitive-by-default) 
+
 ## Policy tips help educate users
 
 Similar to how DLP works in [Exchange, Outlook, Outlook on the web](data-loss-prevention-policies.md#policy-evaluation-in-exchange-online-outlook-and-outlook-on-the-web), [SharePoint Online, OneDrive for Business sites](data-loss-prevention-policies.md#policy-evaluation-in-onedrive-for-business-and-sharepoint-online-sites), and [Office desktop clients](data-loss-prevention-policies.md#policy-evaluation-in-the-office-desktop-programs), policy tips appear when an action conflicts with a DLP policy. Here's an example of a policy tip:
